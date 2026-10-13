@@ -1,259 +1,158 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peter's Clean & Tidy Solutions</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="images/icons/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="images/icons/android-chrome-512x512.png">
-    <link rel="manifest" href="site.webmanifest">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#102e34">
+  <meta name="description" content="Americas Cleaning Services LLC provides thoughtful commercial, common-area and residential cleaning services in Pasadena and surrounding communities. Request a personalized quote.">
+  <meta property="og:title" content="Americas Cleaning Services LLC | Spaces That Make a Better Impression">
+  <meta property="og:description" content="Reliable cleaning for commercial properties, shared spaces and homes. Request a quote today.">
+  <meta property="og:type" content="website">
+  <title>Americas Cleaning Services LLC | Professional Cleaning</title>
+  <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MCA4MCI+PHJlY3Qgd2lkdGg9IjgwIiBoZWlnaHQ9IjgwIiByeD0iMTciIGZpbGw9IiMxOTRlNGMiLz48cGF0aCBkPSJNMTUgNTYgMzcgMTdoN2wyMiAzOWgtOUw0MCAyNyAyMyA1NnoiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJtMzIgNDYgOC0xNCA4IDE0IiBmaWxsPSJub25lIiBzdHJva2U9IiNiOWQ4YzgiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0ibTUyIDE1IDIuNCA3LjZMNjIgMjVsLTcuNiAyLjRMNTIgMzVsLTIuNC03LjZMNDIgMjVsNy42LTIuNHoiIGZpbGw9IiNkZmJiODMiLz48cGF0aCBkPSJNMTggNjRoNDQiIHN0cm9rZT0iIzgyYjVhMyIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4K" type="image/svg+xml">
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{--ink:#122e34;--teal:#184b4c;--teal2:#255f5a;--mint:#d7e9df;--off:#f6f7f2;--gold:#c9a977;--muted:#647271;--line:#dfe5df}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:96px}body{margin:0;color:var(--ink);font-family:'DM Sans',Arial,sans-serif;line-height:1.65}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:Manrope,Arial,sans-serif;line-height:1.16;letter-spacing:-.045em}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}button{cursor:pointer}img{max-width:100%}.container{width:min(1170px,calc(100% - 48px));margin:auto}.skip-link{position:absolute;top:-50px;left:15px;background:white;padding:10px;z-index:30}.skip-link:focus{top:10px}.site-header{background:#fff;position:sticky;top:0;z-index:20;border-bottom:1px solid #e8eeeb}.header-inner{height:87px;display:flex;align-items:center;justify-content:space-between;gap:25px}.brand{display:inline-flex;align-items:center;gap:12px;flex-shrink:0}.brand img{display:block}.brand-name{font:800 18px/1.1 Manrope,Arial,sans-serif;letter-spacing:.055em}.brand-name small{display:block;font-size:9.5px;letter-spacing:.16em;margin-top:7px}.brand-name b{font-weight:800}.site-nav{display:flex;align-items:center;gap:30px;font-size:13px;font-weight:700}.site-nav>a:not(.button):hover{color:#398179}.button{display:inline-flex;justify-content:center;align-items:center;gap:25px;padding:16px 24px;border:1px solid transparent;border-radius:3px;font-size:13px;font-weight:800;line-height:1.2;transition:transform .2s,background .2s}.button:hover{transform:translateY(-2px)}.button-small{padding:13px 18px;gap:17px}.button-dark{background:var(--ink);color:#fff}.button-primary{background:var(--teal2);color:#fff}.button-primary:hover{background:#164c49}.button-outline{border-color:#9bbab2;color:#fff}.menu-toggle{display:none}.hero{background:#eef3eb;overflow:hidden}.hero-layout{display:grid;grid-template-columns:1fr .94fr;gap:45px;align-items:center;min-height:575px}.hero-copy{padding:65px 0 75px}.eyebrow{display:inline-flex;align-items:center;gap:11px;font-size:10px;font-weight:800;letter-spacing:.2em;color:#a9cac0}.eyebrow.dark{color:#417b70}.eyebrow-line{width:20px;height:2px;background:#4a9485}.hero .eyebrow{color:#477f70}.hero h1{font-size:clamp(45px,5.2vw,75px);letter-spacing:-.066em;margin:23px 0 23px}.hero h1 em,h2 em{font-style:normal;color:#478a7a}.hero-copy>p{color:#5f706e;max-width:515px;font-size:16px;line-height:1.85}.hero-actions{display:flex;gap:28px;align-items:center;margin-top:33px;flex-wrap:wrap}.text-link{font-size:13px;font-weight:800;border-bottom:1px solid #9abeb1;padding-bottom:5px}.text-link span{margin-left:7px}.hero-proof{margin-top:53px;display:flex;align-items:center;gap:10px;font-size:12px;color:#647671}.proof-dot{color:#478a7a;font-size:18px}.hero-art{height:465px;position:relative;align-self:center}.illustration-room{position:absolute;inset:0 15px 25px 15px;background:#d5e4d9;overflow:hidden;border-radius:230px 230px 7px 7px;box-shadow:25px 23px 0 #dfeae0}.window-frame{position:absolute;width:50%;height:67%;left:24%;top:12%;border-radius:150px 150px 0 0;background:#eef7f0;border:13px solid #f9f9f1;box-shadow:0 1px 0 2px #afcbbb,15px 15px 50px #88ad9d55}.window-glow{position:absolute;inset:0;background:linear-gradient(140deg,#eaf3e9 0%,#cde4d5 70%)}.window-glow:after{content:"";position:absolute;top:0;left:50%;height:100%;width:8px;background:#f9f9f1}.wall-line{height:3px;position:absolute;bottom:90px;background:#b7cec0;width:100%}.arch{position:absolute;bottom:35px;right:1%;width:46%;height:130px;border-radius:80px 80px 0 0;background:#b3cbb8}.surface{position:absolute;bottom:24px;left:0;right:0;height:18px;background:#eadbc4}.shelf{position:absolute;bottom:42px;left:5%;width:64%;height:10px;border-radius:3px;background:#ad8c70}.plant-pot{position:absolute;bottom:52px;left:13%;background:#dfb891;width:76px;height:90px;clip-path:polygon(0 0,100% 0,85% 100%,15% 100%)}.plant{position:absolute;left:18%;bottom:120px;height:150px;width:90px;z-index:2}.plant i{position:absolute;bottom:0;width:3px;height:145px;background:#608d6e;left:50%;transform-origin:bottom}.plant i:after{content:"";position:absolute;top:8px;left:0;width:52px;height:23px;background:#6c9977;border-radius:100% 0 100% 0;transform:rotate(-30deg)}.plant i:nth-child(2){transform:rotate(25deg);height:140px}.plant i:nth-child(3){transform:rotate(-35deg);height:125px}.plant i:nth-child(4){transform:rotate(48deg);height:115px}.plant i:nth-child(5){transform:rotate(-60deg);height:96px}.sparkle{position:absolute;color:#fff9e5;font-size:31px}.sparkle.one{left:67%;top:27%}.sparkle.two{right:16%;bottom:34%;font-size:42px}.art-note{position:absolute;bottom:0;right:-10px;background:#fff;padding:18px 22px;display:flex;gap:14px;align-items:center;box-shadow:0 15px 45px #234a3e1a;font-size:13px;font-weight:800}.note-icon{font-size:30px;color:#579b83}.art-note small{display:block;font-size:10px;color:#799087;font-weight:500;margin-top:4px}.hero-bottom{border-top:1px solid #d3e0d3;display:flex;justify-content:space-between;padding:20px 0;font-size:10px;font-weight:800;color:#69877b;letter-spacing:.15em}.section{padding:110px 0}.section-heading{display:flex;align-items:end;justify-content:space-between;gap:80px;margin-bottom:41px}.section-heading h2,.about h2,.process h2,.area-band h2,.contact-section h2{font-size:clamp(34px,4.1vw,53px);margin:17px 0 0}.section-heading>p{max-width:390px;color:var(--muted);margin:0;font-size:14px;line-height:1.8}.service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.service-card{min-height:330px;border:1px solid var(--line);padding:28px 23px;background:#fff;display:flex;flex-direction:column;transition:box-shadow .2s,transform .2s}.service-card:hover{transform:translateY(-3px);box-shadow:0 15px 30px #163c3920}.service-number{font:700 11px Manrope;color:#7e9a8e}.service-icon{width:57px;height:57px;background:#edf5ee;border-radius:50%;display:grid;place-items:center;margin:25px 0}.service-icon svg{width:32px;fill:none;stroke:#377467;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}.service-card h3{font-size:18px;margin:0 0 12px;letter-spacing:-.03em}.service-card p{font-size:13px;color:var(--muted);line-height:1.75}.service-card a{font-size:12px;font-weight:800;color:#307969;margin-top:auto;padding-top:12px}.service-card a span{margin-left:8px}.services-note{text-align:center;color:var(--muted);font-size:13px;margin:32px 0 0}.services-note a{text-decoration:underline;color:var(--teal)}.about{background:var(--off)}.about-grid{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:100px}.about-panel{min-height:520px;background:#d6e5d8;padding:35px;display:flex;align-items:stretch}.panel-inner{position:relative;overflow:hidden;background:#23564f;flex:1;color:#fff;padding:45px 35px;display:flex;flex-direction:column;justify-content:space-between}.panel-inner>span{font-size:10px;letter-spacing:.2em;color:#bddbd0;font-weight:700}.panel-inner strong{font:700 clamp(26px,3vw,39px)/1.25 Manrope;letter-spacing:-.05em;position:relative;z-index:2}.panel-mark{font-size:290px;line-height:1;color:#387063;position:absolute;bottom:-85px;right:-32px}.about-copy>p{font-size:15px;line-height:1.9;color:var(--muted);margin:23px 0 30px}.values{border-top:1px solid var(--line)}.values>div{display:flex;gap:16px;border-bottom:1px solid var(--line);padding:19px 0}.value-icon{flex:0 0 28px;height:28px;display:grid;place-items:center;border-radius:50%;background:#d6e9df;color:#215e51;font-weight:bold}.values h3{font-size:15px;margin-bottom:5px}.values p{font-size:13px;color:var(--muted);margin:0}.center-heading{text-align:center}.center-heading>p{color:var(--muted);margin:15px 0 0}.steps{margin-top:62px;display:grid;grid-template-columns:repeat(3,1fr);gap:40px}.step{border-top:2px solid #d8e2da;padding-top:20px}.step>span{font:800 15px Manrope;color:#4f8e80}.step h3{font-size:20px;margin:22px 0 10px}.step p{font-size:14px;color:var(--muted);max-width:280px}.area-band{background:#173f40;color:white;padding:78px 0}.area-inner{display:flex;align-items:center;justify-content:space-between;gap:45px}.area-band h2{margin:15px 0 18px}.area-band h2 em{color:#9bc9b7}.area-band p{font-size:14px;color:#bad0c7;max-width:590px;margin:0}.contact-section{background:#f7f9f5}.contact-grid{display:grid;grid-template-columns:.82fr 1.18fr;gap:90px;align-items:start}.contact-copy>p{color:var(--muted);line-height:1.85;font-size:15px;max-width:405px;margin:23px 0 47px}.contact-detail{display:flex;align-items:start;gap:15px;margin-bottom:28px;font-size:13px}.contact-symbol{width:42px;height:42px;flex:0 0 42px;background:#e0eee5;color:#2e7769;display:grid;place-items:center;font-size:22px}.contact-detail strong,.contact-detail a,.contact-detail small,.contact-detail div>span{display:block}.contact-detail strong{font-size:14px}.contact-detail a{text-decoration:underline;color:#307b6e;margin-top:5px;overflow-wrap:anywhere}.contact-detail small{font-size:11px;color:#86928e}.contact-detail div>span{color:var(--muted)}.form-card{background:#fff;border:1px solid var(--line);padding:37px 39px;box-shadow:0 18px 60px #26463b0b}.form-header h3{font-size:25px;margin-bottom:8px}.form-header p{font-size:13px;color:var(--muted);margin-bottom:29px}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:17px}.field{margin-bottom:20px}.field label{display:block;font-size:12px;font-weight:800;margin-bottom:8px}.field label>span{color:#347566}.field label .optional{color:#8a9692;font-weight:400}input,select,textarea{display:block;width:100%;border:1px solid #d8e1db;background:#fff;color:var(--ink);border-radius:2px;padding:13px 14px;font-size:13px;outline-offset:2px}input:focus,select:focus,textarea:focus{border-color:#2c826d;outline:2px solid #a0cfbf}textarea{resize:vertical;min-height:110px}::placeholder{color:#98a59f}.form-disclaimer{color:#77837e;font-size:11px;line-height:1.6}.form-feedback{font-size:13px;color:#a13b30;font-weight:700;margin:10px 0}.button-submit{width:100%;margin-top:7px}.footer{background:#102e34;color:#fff}.footer-top{padding:55px 0;display:flex;align-items:center;justify-content:space-between;gap:25px}.footer-brand{color:#fff}.footer-top>p{font-size:13px;color:#b9cac7;margin:0}.footer-back{font-size:12px;color:#cae1d7}.footer-bottom{border-top:1px solid #38525a;padding:23px 0;display:flex;justify-content:space-between;gap:20px;font-size:11px;color:#a9c0bb}@media(max-width:1050px){.site-nav{gap:15px}.service-grid{grid-template-columns:repeat(2,1fr)}.about-grid{gap:50px}.contact-grid{gap:40px}.hero-layout{gap:20px}.hero h1{font-size:56px}}@media(max-width:780px){.container{width:min(100% - 32px,600px)}.header-inner{height:73px}.brand-name{font-size:15px}.brand-name small{font-size:8px}.brand img{width:44px;height:44px}.menu-toggle{display:flex;flex-direction:column;gap:5px;background:none;border:0;padding:8px}.menu-toggle span{width:23px;height:2px;background:var(--ink)}.site-nav{display:none;position:absolute;left:0;right:0;top:73px;background:white;padding:25px 20px;flex-direction:column;align-items:stretch;border-bottom:1px solid var(--line);box-shadow:0 14px 30px #0001}.site-nav.open{display:flex}.hero-layout{grid-template-columns:1fr}.hero-copy{padding:60px 0 0}.hero h1{font-size:clamp(42px,9vw,62px)}.hero-art{height:380px;max-width:520px;width:100%;margin:auto}.hero-bottom{gap:10px;font-size:8px;flex-wrap:wrap}.section{padding:75px 0}.section-heading,.area-inner{display:block}.section-heading>p{margin-top:19px}.about-grid,.contact-grid{grid-template-columns:1fr;gap:40px}.about-panel{min-height:370px}.area-inner>.button{margin-top:25px}.steps{gap:23px}.contact-copy>p{margin-bottom:30px}.footer-top{flex-wrap:wrap}.footer-bottom{flex-wrap:wrap}}@media(max-width:520px){.service-grid,.steps,.form-row{grid-template-columns:1fr}.service-card{min-height:260px}.hero-actions{gap:18px}.hero-art{height:315px}.art-note{right:0;padding:13px}.section-heading h2,.about h2,.process h2,.area-band h2,.contact-section h2{font-size:36px}.form-card{padding:27px 20px}.steps{margin-top:38px}.step{padding-top:12px}.step h3{margin-top:10px}.hero-bottom span:last-child{display:none}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* Preliminary price guide */
+.pricing{background:#f8faf7}.pricing-category{margin:46px 0 18px;border-bottom:1px solid var(--line);padding-bottom:13px}.pricing-category h3{font-size:24px;margin:0 0 3px}.pricing-category p{font-size:13px;color:var(--muted);margin:0}.price-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.price-grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.price-card{background:white;border:1px solid #dce6df;padding:30px;display:flex;flex-direction:column}.price-card.featured{border-top:4px solid #458778}.price-kicker{font-size:10px;font-weight:800;letter-spacing:.16em;color:#478a7a}.price-card h4{font:800 22px/1.3 Manrope,Arial,sans-serif;letter-spacing:-.035em;margin:15px 0 9px}.price-card>p{color:var(--muted);font-size:13px;line-height:1.7;min-height:65px}.price-line{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 0;border-top:1px solid var(--line);font-size:13px}.price-line strong{font:800 22px Manrope,Arial,sans-serif;color:#245e53}.price-card>a{margin-top:auto;display:block;padding-top:21px;font-size:12px;color:#26705d;font-weight:800}.pricing-extras{margin-top:42px;padding:28px 32px;background:#e8f1e9;display:grid;grid-template-columns:1fr 1.2fr;gap:30px;align-items:center}.pricing-extras h3{font-size:22px;margin-bottom:8px}.pricing-extras p{font-size:13px;color:var(--muted);margin:0}.extras-list>div{display:flex;align-items:center;justify-content:space-between;gap:15px;border-bottom:1px solid #cbded1;padding:12px 0;font-size:13px}.extras-list strong{font-size:20px;color:#245e53}.pricing-footnote{font-size:12px;line-height:1.8;color:#63736e;margin-top:26px;max-width:950px}
+@media(max-width:780px){.price-grid{grid-template-columns:1fr 1fr}.pricing-extras{grid-template-columns:1fr}}@media(max-width:520px){.price-grid,.price-grid.two{grid-template-columns:1fr}.price-card>p{min-height:0}.pricing-extras{padding:23px}}
+
+</style>
+  
 </head>
 <body>
-    <header>
-        <h1>Peter's Clean & Tidy Solutions</h1>
-        <p>Your trusted partner for residential and commercial cleaning, organizing, and more in Pasadena and surrounding areas.</p>
-    </header>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Americas Cleaning Services LLC home">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MCA4MCI+PHJlY3Qgd2lkdGg9IjgwIiBoZWlnaHQ9IjgwIiByeD0iMTciIGZpbGw9IiMxOTRlNGMiLz48cGF0aCBkPSJNMTUgNTYgMzcgMTdoN2wyMiAzOWgtOUw0MCAyNyAyMyA1NnoiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJtMzIgNDYgOC0xNCA4IDE0IiBmaWxsPSJub25lIiBzdHJva2U9IiNiOWQ4YzgiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0ibTUyIDE1IDIuNCA3LjZMNjIgMjVsLTcuNiAyLjRMNTIgMzVsLTIuNC03LjZMNDIgMjVsNy42LTIuNHoiIGZpbGw9IiNkZmJiODMiLz48cGF0aCBkPSJNMTggNjRoNDQiIHN0cm9rZT0iIzgyYjVhMyIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4K" width="53" height="53" alt="">
+        <span class="brand-name">AMERICAS <small>CLEANING SERVICES <b>LLC</b></small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#services">Services</a><a href="#pricing">Pricing</a><a href="#about">Why Choose Us</a><a href="#process">Our Process</a><a href="#areas">Service Area</a>
+        <a class="button button-small button-dark" href="#quote">Request a Quote <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-line"></span> PROFESSIONAL CLEANING SERVICES</span>
+          <h1 id="hero-title">A cleaner space.<br><em>A better impression.</em></h1>
+          <p>Clean, welcoming environments make a difference. At Americas Cleaning Services LLC, we bring a thoughtful, detail-focused approach to the spaces you care about.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#quote">Get a Free Quote <span aria-hidden="true">↗</span></a><a class="text-link" href="#services">Explore our services <span aria-hidden="true">→</span></a></div>
+          <div class="hero-proof"><span class="proof-dot" aria-hidden="true">✦</span><span>Serving Pasadena & surrounding communities</span></div>
+        </div>
+        <div class="hero-art" aria-label="Decorative abstract architectural illustration of a bright, clean space" role="img">
+          <div class="illustration-room"><div class="window-frame"><div class="window-glow"></div></div><div class="wall-line"></div><div class="arch"></div><div class="plant plant-one"><i></i><i></i><i></i><i></i><i></i></div><div class="plant-pot"></div><div class="surface"></div><div class="shelf"></div><div class="sparkle one">✦</div><div class="sparkle two">✧</div></div>
+          <div class="art-note"><span class="note-icon">✳</span><span>Care in every detail.<small>Quality starts with the little things.</small></span></div>
+        </div>
+      </div>
+      <div class="container hero-bottom"><span>THOUGHTFUL SERVICE</span><span>PROFESSIONAL PRESENTATION</span><span>PERSONALIZED SOLUTIONS</span></div>
+    </section>
 
-    <nav>
-        <ul>
-            <li><a href="#services">Our Services</a></li>
-            <li><a href="#areas">Service Areas</a></li>
-            <li><a href="#availability">Availability</a></li>
-            <li><a href="#eco-friendly">Eco-Friendly Approach</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>
-    </nav>
+    <section class="section services" id="services">
+      <div class="container"><div class="section-heading"><div><span class="eyebrow dark">WHAT WE DO</span><h2>Clean spaces, <em>made simple.</em></h2></div><p>From regularly maintained common areas to one-time cleaning requests, our services can be tailored to your space and schedule.</p></div>
+        <div class="service-grid">
+          <article class="service-card"><span class="service-number">01 /</span><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M7 40V14L24 5l17 9v26M14 40V21h20v19M20 40V28h8v12M7 40h34"/></svg></div><h3>Commercial & Office Cleaning</h3><p>General cleaning for offices, small businesses and professional spaces, with attention to the details visitors notice.</p><a href="#quote" data-service="Commercial & Office Cleaning">Request this service <span aria-hidden="true">→</span></a></article>
+          <article class="service-card"><span class="service-number">02 /</span><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M5 40h38M9 40V12h30v28M16 19h6v6h-6zM27 19h6v6h-6zM16 30h6v6h-6zM27 30h6v10h-6zM18 12V6h12v6"/></svg></div><h3>Property Common Areas</h3><p>Routine care for building entrances, lobbies, hallways, laundry rooms and other shared spaces.</p><a href="#quote" data-service="Property Common Areas">Request this service <span aria-hidden="true">→</span></a></article>
+          <article class="service-card"><span class="service-number">03 /</span><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M5 23 24 7l19 16M10 20v21h28V20M19 41V28h10v13M32 12V7h6v11"/></svg></div><h3>Residential Cleaning</h3><p>Personalized cleaning for homes and living spaces, based on your priorities and the work involved.</p><a href="#quote" data-service="Residential Cleaning">Request this service <span aria-hidden="true">→</span></a></article>
+          <article class="service-card"><span class="service-number">04 /</span><div class="service-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M10 9h28v30H10zM10 19h28M17 14h2m5 0h2M16 29l5 5 11-12M8 39h32"/></svg></div><h3>Additional Cleaning & Organizing</h3><p>Need help with detailed cleaning, interior glass, touchpoint cleaning or organization? Tell us about your project.</p><a href="#quote" data-service="Additional Cleaning & Organizing">Request this service <span aria-hidden="true">→</span></a></article>
+        </div>
+        <p class="services-note">Not sure which service fits? <a href="#quote">Describe your space</a> and we can discuss your needs.</p>
+      </div>
+    </section>
 
-    <main>
-        <section id="services">
-            <h2>Our Services</h2>
-            <h3>Target Market</h3>
-            <p>We specialize in serving residential apartment complexes, small businesses, and individual homeowners.</p>
 
-            <h3>Key Areas Covered</h3>
-            <ul>
-                <li>
-                    <h4>Outdoor</h4>
-                    <ul>
-                        <li>Sidewalk and parking lot cleaning using pressure washers and steam cleaners</li>
-                    </ul>
-                </li>
-                <li>
-                    <h4>Lobbies</h4>
-                    <ul>
-                        <li>Mopping, sweeping, vacuuming</li>
-                        <li>Dusting, wiping surfaces</li>
-                        <li>Window and glass cleaning</li>
-                        <li>Trash removal</li>
-                    </ul>
-                </li>
-                <li>
-                    <h4>Laundry Areas</h4>
-                    <ul>
-                        <li>Machine cleaning and sanitizing</li>
-                        <li>Floor and wall cleaning</li>
-                        <li>Disinfecting high-touch areas</li>
-                        <li>Trash removal</li>
-                    </ul>
-                </li>
-                <li>
-                    <h4>Organizing Services</h4>
-                    <ul>
-                        <li>Professional organizing for closets and living spaces</li>
-                        <li>Note: We do not offer services for hoarding situations</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
+    <section class="section pricing" id="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <div class="section-heading"><div><span class="eyebrow dark">STARTING PRICE GUIDE</span><h2 id="pricing-title">Simple options. <em>Clear estimates.</em></h2></div><p>Explore our preliminary cleaning rates for shared building spaces. Final quotes are customized to your property, scope, frequency, and site conditions.</p></div>
+        <div class="pricing-category"><div><h3>Lobby cleaning</h3><p>One-time and biweekly service options</p></div></div>
+        <div class="price-grid">
+          <article class="price-card"><span class="price-kicker">ESSENTIAL CARE</span><h4>Basic Lobby</h4><p>Sweeping, mopping, vacuuming and trash removal.</p><div class="price-line"><span>One-time</span><strong>$165</strong></div><div class="price-line"><span>Biweekly</span><strong>$143</strong></div><a href="#quote" data-service="Property Common Areas">Request an estimate →</a></article>
+          <article class="price-card featured"><span class="price-kicker">ADDITIONAL DETAIL</span><h4>Standard Lobby</h4><p>Basic cleaning plus dusting and interior window/glass cleaning.</p><div class="price-line"><span>One-time</span><strong>$220</strong></div><div class="price-line"><span>Biweekly</span><strong>$187</strong></div><a href="#quote" data-service="Property Common Areas">Request an estimate →</a></article>
+          <article class="price-card"><span class="price-kicker">MORE COMPLETE CARE</span><h4>Premium Lobby</h4><p>Standard cleaning plus disinfecting high-touch surfaces.</p><div class="price-line"><span>One-time</span><strong>$275</strong></div><div class="price-line"><span>Biweekly</span><strong>$220</strong></div><a href="#quote" data-service="Property Common Areas">Request an estimate →</a></article>
+        </div>
+        <div class="pricing-category"><div><h3>Laundry area cleaning</h3><p>For shared laundry rooms and similar common areas</p></div></div>
+        <div class="price-grid two">
+          <article class="price-card"><span class="price-kicker">ESSENTIAL CARE</span><h4>Basic Laundry Area</h4><p>Cleaning floors and walls, plus trash removal.</p><div class="price-line"><span>One-time</span><strong>$110</strong></div><div class="price-line"><span>Biweekly</span><strong>$88</strong></div><a href="#quote" data-service="Property Common Areas">Request an estimate →</a></article>
+          <article class="price-card"><span class="price-kicker">ADDITIONAL DETAIL</span><h4>Standard Laundry Area</h4><p>Basic cleaning plus sanitizing machines and high-touch areas.</p><div class="price-line"><span>One-time</span><strong>$165</strong></div><div class="price-line"><span>Biweekly</span><strong>$132</strong></div><a href="#quote" data-service="Property Common Areas">Request an estimate →</a></article>
+        </div>
+        <div class="pricing-extras"><div><h3>Available add-ons</h3><p>Ask us about these options when requesting your quote.</p></div><div class="extras-list"><div><span>High-touch area disinfecting</span><strong>$55</strong></div><div><span>Window & glass cleaning add-on</span><strong>$33</strong></div></div></div>
+        <p class="pricing-footnote"><strong>Pricing notice:</strong> These are preliminary reference estimates from our existing pricing sheet, not binding offers. Biweekly rates apply to the biweekly service option. Property size, access, condition and requested work may affect the final quote. Commercial offices, residential cleaning, and custom packages are quoted individually. Prior promotional discounts and exterior-service bundles are not included.</p>
+      </div>
+    </section>
 
-        <section id="areas">
-            <h2>Service Areas</h2>
-            <p>We serve areas within a 1-hour radius of Pasadena, focusing on local city and neighborhood contracts.</p>
-        </section>
+    <section class="section about" id="about"><div class="container about-grid"><div class="about-panel"><div class="panel-inner"><span>THE AMERICAS APPROACH</span><strong>Cleanliness you can see.<br>Care you can feel.</strong><div class="panel-mark">✳</div></div></div><div class="about-copy"><span class="eyebrow dark">OUR APPROACH</span><h2>Good service starts with <em>understanding your space.</em></h2><p>Every property has different priorities. We focus on clear communication, practical cleaning plans and a professional experience from the first inquiry.</p><div class="values"><div><span class="value-icon">✓</span><div><h3>Detail-minded care</h3><p>We take time to understand what matters most in each space.</p></div></div><div><span class="value-icon">✓</span><div><h3>Flexible service requests</h3><p>Discuss one-time visits or ongoing maintenance needs.</p></div></div><div><span class="value-icon">✓</span><div><h3>Clear, individualized quotes</h3><p>Scope and pricing are discussed before work is arranged.</p></div></div></div></div></div></section>
 
-        <section id="availability">
-            <h2>Availability</h2>
-            <p>We are available for service on Tuesdays, Wednesdays, and Thursdays. Please note that we do not offer emergency or last-minute services.</p>
-        </section>
+    <section class="section process" id="process"><div class="container"><div class="center-heading"><span class="eyebrow dark">HOW IT WORKS</span><h2>Getting started is <em>easy.</em></h2><p>Three simple steps toward a cleaner space.</p></div><div class="steps"><div class="step"><span>01</span><h3>Tell us what you need</h3><p>Share the type of property, cleaning needs and preferred schedule.</p></div><div class="step"><span>02</span><h3>We review your request</h3><p>We’ll discuss the details and whether a walkthrough is appropriate.</p></div><div class="step"><span>03</span><h3>Receive a personalized quote</h3><p>Get an estimate based on the requested work and property details.</p></div></div></div></section>
 
-        <section id="eco-friendly">
-            <h2>Eco-Friendly Approach</h2>
-            <ul>
-                <li>We use pressure washers and steam cleaners for efficient, deep cleaning</li>
-                <li>Our focus is on effective cleaning methods</li>
-            </ul>
-        </section>
+    <section class="area-band" id="areas"><div class="container area-inner"><div><span class="eyebrow">LOCAL SERVICE</span><h2>Rooted in Pasadena.<br><em>Here for our neighbors.</em></h2><p>Serving Pasadena and surrounding communities in the San Gabriel Valley and greater Los Angeles area. Service availability depends on location and project scope.</p></div><a class="button button-outline" href="#quote">Check Your Area <span aria-hidden="true">↗</span></a></div></section>
 
-        <section id="pricing">
-            <h2>Pricing & Packages</h2>
-            <p>We provide competitive pricing with discounts for bundled services and long-term contracts. Below is the updated pricing sheet based on the new rates.</p>
+    <section class="section contact-section" id="quote"><div class="container contact-grid"><div class="contact-copy"><span class="eyebrow dark">LET'S CONNECT</span><h2>Let’s make your space <em>shine.</em></h2><p>Tell us a little about your property and what you’re looking for. We’ll use those details to start a conversation about your cleaning needs.</p><div class="contact-detail"><span class="contact-symbol" aria-hidden="true">✉</span><div><strong>Email inquiries</strong><a id="email-link" href="mailto:quotes@example.com">quotes@example.com</a><small>Temporary sample address — to be updated before launch</small></div></div><div class="contact-detail"><span class="contact-symbol" aria-hidden="true">⌖</span><div><strong>Service area</strong><span>Pasadena, California & surrounding areas</span></div></div></div>
+      <div class="form-card"><div class="form-header"><h3>Request a quote</h3><p>Fill out the details below to prepare an email inquiry.</p></div>
+        <form id="quote-form" novalidate>
+          <div class="form-row"><div class="field"><label for="full-name">Full name <span>*</span></label><input id="full-name" name="name" autocomplete="name" required maxlength="100" placeholder="Your name"></div><div class="field"><label for="email">Email address <span>*</span></label><input id="email" type="email" name="email" autocomplete="email" required maxlength="200" placeholder="you@example.com"></div></div>
+          <div class="form-row"><div class="field"><label for="phone">Phone number <span class="optional">(optional)</span></label><input id="phone" type="tel" name="phone" autocomplete="tel" maxlength="40" placeholder="(555) 555-5555"></div><div class="field"><label for="location">City / ZIP code <span>*</span></label><input id="location" name="location" required maxlength="120" placeholder="e.g., Pasadena, 91101"></div></div>
+          <div class="field"><label for="service">Service needed <span>*</span></label><select id="service" name="service" required><option value="">Select a service</option><option>Commercial & Office Cleaning</option><option>Property Common Areas</option><option>Residential Cleaning</option><option>Additional Cleaning & Organizing</option><option>Not Sure / Multiple Services</option></select></div>
+          <div class="field"><label for="frequency">How often?</label><select id="frequency" name="frequency"><option value="Not specified">Select an option</option><option>One-time</option><option>Weekly</option><option>Every two weeks</option><option>Monthly</option><option>Need advice</option></select></div>
+          <div class="field"><label for="message">Tell us about the space <span>*</span></label><textarea id="message" name="message" rows="5" required maxlength="3000" placeholder="What type of space is it? Approximate size, areas to clean, and any scheduling details..."></textarea></div>
+          <p class="form-disclaimer">Please don't include sensitive personal information. Submitting will open your email application with your quote request prepared; you must send the email yourself. This is a preview setup, not a live website inbox.</p>
+          <div id="form-feedback" class="form-feedback" aria-live="polite"></div>
+          <button class="button button-primary button-submit" type="submit">Prepare Email Request <span aria-hidden="true">↗</span></button>
+        </form>
+      </div></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-top"><a class="brand footer-brand" href="#top"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4MCA4MCI+PHJlY3Qgd2lkdGg9IjgwIiBoZWlnaHQ9IjgwIiByeD0iMTciIGZpbGw9IiMxOTRlNGMiLz48cGF0aCBkPSJNMTUgNTYgMzcgMTdoN2wyMiAzOWgtOUw0MCAyNyAyMyA1NnoiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJtMzIgNDYgOC0xNCA4IDE0IiBmaWxsPSJub25lIiBzdHJva2U9IiNiOWQ4YzgiIHN0cm9rZS13aWR0aD0iNiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0ibTUyIDE1IDIuNCA3LjZMNjIgMjVsLTcuNiAyLjRMNTIgMzVsLTIuNC03LjZMNDIgMjVsNy42LTIuNHoiIGZpbGw9IiNkZmJiODMiLz48cGF0aCBkPSJNMTggNjRoNDQiIHN0cm9rZT0iIzgyYjVhMyIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4K" width="52" height="52" alt=""><span class="brand-name">AMERICAS <small>CLEANING SERVICES <b>LLC</b></small></span></a><p>Professional cleaning. Thoughtful care.<br>Pasadena & surrounding communities.</p><a class="footer-back" href="#top">Back to top ↑</a></div><div class="container footer-bottom"><span>© <span id="year"></span> Americas Cleaning Services LLC. All rights reserved.</span><span>Website preview · Business details subject to confirmation</span></div></footer>
+<script>
+/* PREVIEW CONFIGURATION: replace with a real monitored business address before launch. */
+const CONTACT_EMAIL = 'quotes@example.com';
 
-            <h3>1. Exterior Cleaning Services</h3>
-            <table>
-                <tr>
-                    <th>Service</th>
-                    <th>Description</th>
-                    <th>Price Estimate</th>
-                </tr>
-                <tr>
-                    <td><strong>Sidewalk Cleaning</strong></td>
-                    <td>Pressure washing a 500-square-foot sidewalk</td>
-                    <td>$200 - $300</td>
-                </tr>
-                <tr>
-                    <td><strong>Parking Lot Cleaning</strong></td>
-                    <td>Pressure washing a 2,000-square-foot parking lot</td>
-                    <td>$800 - $1,200</td>
-                </tr>
-                <tr>
-                    <td><strong>Combo: Sidewalk + Parking Lot</strong></td>
-                    <td>Complete exterior cleaning package</td>
-                    <td>$1,000 - $1,500</td>
-                </tr>
-            </table>
+const nav = document.querySelector('#site-nav');
+const toggle = document.querySelector('.menu-toggle');
+toggle.addEventListener('click', () => {
+  const isOpen = nav.classList.toggle('open');
+  toggle.setAttribute('aria-expanded', String(isOpen));
+  toggle.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+});
+nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+  nav.classList.remove('open');
+  toggle.setAttribute('aria-expanded', 'false');
+  toggle.setAttribute('aria-label', 'Open menu');
+}));
 
-            <h3>2. Lobby Cleaning Services</h3>
-            <table>
-                <tr>
-                    <th>Service</th>
-                    <th>Description</th>
-                    <th>One-Time Price</th>
-                    <th>Recurring Price (Per Visit)</th>
-                </tr>
-                <tr>
-                    <td><strong>Basic Lobby Cleaning</strong></td>
-                    <td>Mopping, sweeping, vacuuming, trash removal</td>
-                    <td>$165</td>
-                    <td>$143 (bi-weekly)</td>
-                </tr>
-                <tr>
-                    <td><strong>Standard Lobby Cleaning</strong></td>
-                    <td>Basic + dusting, window/glass cleaning</td>
-                    <td>$220</td>
-                    <td>$187 (bi-weekly)</td>
-                </tr>
-                <tr>
-                    <td><strong>Premium Lobby Cleaning</strong></td>
-                    <td>Standard + disinfecting high-touch surfaces</td>
-                    <td>$275</td>
-                    <td>$220 (bi-weekly)</td>
-                </tr>
-            </table>
+document.querySelector('#year').textContent = String(new Date().getFullYear());
+const emailLink = document.querySelector('#email-link');
+emailLink.textContent = CONTACT_EMAIL;
+emailLink.href = `mailto:${CONTACT_EMAIL}`;
 
-            <h3>3. Laundry Area Cleaning Services</h3>
-            <table>
-                <tr>
-                    <th>Service</th>
-                    <th>Description</th>
-                    <th>One-Time Price</th>
-                    <th>Recurring Price (Per Visit)</th>
-                </tr>
-                <tr>
-                    <td><strong>Basic Laundry Area Cleaning</strong></td>
-                    <td>Cleaning floors and walls, trash removal</td>
-                    <td>$110</td>
-                    <td>$88 (bi-weekly)</td>
-                </tr>
-                <tr>
-                    <td><strong>Standard Laundry Area Cleaning</strong></td>
-                    <td>Basic + sanitizing machines and high-touch areas</td>
-                    <td>$165</td>
-                    <td>$132 (bi-weekly)</td>
-                </tr>
-            </table>
+const serviceSelect = document.querySelector('#service');
+document.querySelectorAll('[data-service]').forEach(link => link.addEventListener('click', () => {
+  serviceSelect.value = link.getAttribute('data-service');
+}));
 
-            <h3>4. Full Building Service Packages</h3>
-            <table>
-                <tr>
-                    <th>Service</th>
-                    <th>Description</th>
-                    <th>One-Time Price</th>
-                    <th>Recurring Price (Per Visit)</th>
-                </tr>
-                <tr>
-                    <td><strong>Exterior + Lobby Basic Package</strong></td>
-                    <td>Sidewalk + Parking Lot + Basic Lobby Cleaning</td>
-                    <td>$495</td>
-                    <td>$440 (bi-weekly)</td>
-                </tr>
-                <tr>
-                    <td><strong>Full Common Area Package</strong></td>
-                    <td>Exterior + Standard Lobby + Standard Laundry</td>
-                    <td>$660</td>
-                    <td>$572 (bi-weekly)</td>
-                </tr>
-            </table>
+const form = document.querySelector('#quote-form');
+const feedback = document.querySelector('#form-feedback');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  feedback.textContent = '';
+  if (!form.reportValidity()) return;
+  const data = new FormData(form);
+  const fields = [
+    ['Name',data.get('name')],['Email',data.get('email')],['Phone',data.get('phone') || 'Not provided'],
+    ['City / ZIP',data.get('location')],['Service',data.get('service')],
+    ['Frequency',data.get('frequency')],['Project details',data.get('message')]
+  ];
+  const body = fields.map(([label,value]) => `${label}: ${value}`).join('\n\n');
+  const subject = `Cleaning quote inquiry - ${data.get('service')}`;
+  const href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  feedback.textContent = 'Your email app should open with the request ready. Please review and press Send there. If nothing opens, use the email address shown on this page.';
+  window.location.href = href;
+});
 
-            <h3>5. Additional Services</h3>
-            <table>
-                <tr>
-                    <th>Service</th>
-                    <th>Description</th>
-                    <th>Price</th>
-                </tr>
-                <tr>
-                    <td><strong>Disinfecting (High-Touch Areas)</strong></td>
-                    <td>Add-on service for any area</td>
-                    <td>$55</td>
-                </tr>
-                <tr>
-                    <td><strong>Window and Glass Cleaning</strong></td>
-                    <td>Add-on to laundry or lobby cleaning</td>
-                    <td>$33</td>
-                </tr>
-            </table>
-            
-            <h3>6. Organizing Services</h3>
-            <table>
-                <tr>
-                    <th>Service</th>
-                    <th>Description</th>
-                    <th>Price Estimate</th>
-                </tr>
-                <tr>
-                    <td><strong>Closet Clean-Out</strong></td>
-                    <td>Organizing and decluttering a closet</td>
-                    <td>$250</td>
-                </tr>
-                <tr>
-                    <td><strong>Home Organizing</strong></td>
-                    <td>Organizing rooms or living spaces, hourly rate</td>
-                    <td>$50 - $150 per hour</td>
-                </tr>
-                <tr>
-                    <td><strong>Garage Sorting</strong></td>
-                    <td>Organizing and decluttering a garage</td>
-                    <td>$350</td>
-                </tr>
-            </table>
-
-            <h3>Discounts & Special Offers</h3>
-            <ul>
-                <li><strong>First-time Clients:</strong> $50 off the first cleaning or organizing service (one-time service only)</li>
-                <li><strong>Long-Term Contracts:</strong> Sign a 6-month contract and receive 10% off all recurring services</li>
-            </ul>
-
-            <h3>Payment Terms</h3>
-            <ul>
-                <li>Payment is due upon completion of service for one-time jobs</li>
-                <li>Monthly invoicing available for recurring services</li>
-                <li>Materials are not included in hourly rates and may incur an additional charge</li>
-            </ul>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>For inquiries or to schedule a site evaluation, please email us at: <a href="mailto:peterparker1046@yahoo.com">peterparker1046@yahoo.com</a></p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Peter's Clean & Tidy Solutions. All rights reserved.</p>
-    </footer>
+</script>
 </body>
 </html>
